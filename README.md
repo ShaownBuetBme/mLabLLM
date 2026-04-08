@@ -1,3 +1,5 @@
+[![AAAI 2025](https://img.shields.io/badge/AAAI-2025-blue?style=flat-square&logo=academia&logoColor=white)](https://openreview.net/forum?id=E6J9IFPE0w)
+
 mLabLLM — Antihallucinogenic AI for Tropical Disease Differential Diagnosis
 mLabLLM is a fine-tuned adaptation of LLaMA 3.2 3B optimized for clinical differential diagnosis in resource-constrained, tropical medicine settings. Developed at the mHealth Lab, BUET, it addresses a critical gap in AI-assisted healthcare for low- and middle-income countries (LMICs) — where diseases like Dengue, Malaria, and Chikungunya are prevalent yet frequently misdiagnosed.
 The system combines efficient fine-tuning (LoRA + pruning + 8-bit quantization) with a dynamic probabilistic diagnosis framework that iteratively questions the patient, extracts medical entities, queries biomedical literature, and ranks diagnoses using Bayesian reasoning — all within a lightweight, deployable footprint.
